@@ -1,9 +1,9 @@
 package br.com.dio.model;
 
 public class ContaCorrente extends Conta {
-
-    public ContaCorrente(int agencia, int numero) {
-        super(agencia, numero);
+    private static int SEQUENCIAL = 1;
+    public ContaCorrente() {
+        super(this.AGENCIA_PADRAO, SEQUENCIAL++);
     }
 }
 

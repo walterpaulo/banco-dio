@@ -2,7 +2,8 @@ package br.com.dio.model;
 
 public class ContaPoupanca extends Conta {
 
-    public ContaPoupanca(int agencia, int numero) {
-        super(agencia, numero);
+    private static int SEQUENCIAL = 1;
+    public ContaPoupanca() {
+        super(this.AGENCIA_PADRAO, SEQUENCIAL++);
     }
 }
