@@ -1,4 +1,4 @@
-package br.com.dio.model;
+package br.com.dio.service;
 
 public interface Banco {
     public void sacar();
