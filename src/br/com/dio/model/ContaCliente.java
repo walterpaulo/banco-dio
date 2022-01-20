@@ -1,4 +1,5 @@
 package br.com.dio.model;
 
-public class ContaCorrente {
+public class ContaCliente {
+    private String nome;
 }
