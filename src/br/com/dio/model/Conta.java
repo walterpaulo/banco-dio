@@ -1,6 +1,9 @@
 package br.com.dio.model;
 
 public abstract class Conta implements IConta{
+
+    protected static final int AGENCIA_PADRAO = 1;
+
     private int agencia;
     private int numero;
     private double saldo;
