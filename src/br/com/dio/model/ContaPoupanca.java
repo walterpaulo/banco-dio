@@ -1,6 +1,6 @@
 package br.com.dio.model;
 
-public class ContaPoupanca extends Banco{
+public class ContaPoupanca extends Conta {
 
     public ContaPoupanca(int agencia, int numero) {
         super(agencia, numero);
