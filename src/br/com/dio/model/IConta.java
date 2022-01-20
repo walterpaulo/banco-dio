@@ -1,9 +1,7 @@
-package br.com.dio.service;
+package br.com.dio.model;
 
-import br.com.dio.model.Banco;
-
-public interface IBanco {
+public interface IConta {
     public void sacar(double valor);
     public void depositar(double valor);
-    public void transfeir(double valor, Banco tipoConta);
+    public void transfeir(double valor, Conta tipoConta);
 }
