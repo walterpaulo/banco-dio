@@ -4,6 +4,15 @@ public class ContaPoupanca extends Conta {
 
     private static int SEQUENCIAL = 1;
     public ContaPoupanca() {
-        super(this.AGENCIA_PADRAO, SEQUENCIAL++);
+        super(SEQUENCIAL++);
     }
+
+    @Override
+    public void imprimrExtrato() {
+        System.out.println("==============Conta Poupança==============");
+        super.imprimirInfosComun();
+    }
+
+
+
 }
