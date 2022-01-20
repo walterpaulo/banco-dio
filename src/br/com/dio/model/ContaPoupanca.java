@@ -3,8 +3,8 @@ package br.com.dio.model;
 public class ContaPoupanca extends Conta {
 
     private static int SEQUENCIAL = 1;
-    public ContaPoupanca() {
-        super(SEQUENCIAL++);
+    public ContaPoupanca(Cliente cliente) {
+        super(cliente, SEQUENCIAL++);
     }
 
     @Override
